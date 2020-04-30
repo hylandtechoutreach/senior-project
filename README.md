@@ -9,17 +9,17 @@ Material for Hyland's senior project experience
 - E-mail [joseph.maxwell@hyland.com](mailto:joseph.maxwell@hyland.com) with questions about the material
 
 ## Schedule
-- Week 1: Self-paced learning / Hackathon work
-- Week 2: Hackathon work
+- Week 1: Self-paced learning / Software development project work
+- Week 2: Software development project work
 
-## Hackathon Project
+## Software Development Project
 Students should build a web application. This could be a static website with HTML/CSS/JavaScript or a full-stack web app with Node.js and Express.
 
 Students can begin by doing some self-paced learning, or they can jump right into building something. The ultimate goal is to have a complete web app of some sort by the end of the project.
 
 [VS Code](https://code.visualstudio.com/download) is the recommended development environment for the project.
 
-### HTML/CSS/JavaScript
+### Option 1: HTML/CSS/JavaScript
 To build a functional static webpage, it is necessary to learn HTML, CSS, and JavaScript. [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) defines the structure of webpage, [CSS](https://developer.mozilla.org/en-US/docs/Web/css) adds styles, and [JavaScript](https://developer.mozilla.org/en-US/docs/Web/javascript) makes the page interactive.
 
 #### Self-Paced Learning
@@ -33,7 +33,7 @@ There are several possible projects that use front-end HTML, CSS, and JavaScript
 - [Which Season Are You?](https://hylandtechclub.com/web-102/Week11/PersonalityQuiz.html)
 - [Which Pet Are You?](https://mchiricohyland.github.io/web102finalproject)
 
-### Full-Stack Web Development
+### Option 2: Full-Stack Web Development
 To build a fully-fledged web application, it is necessary to use a full stack. This allows for a server and database, so the app can keep track of data and serve up different pages dynamically.
 
 #### Self-Paced Learning with Hy-Tech Club
