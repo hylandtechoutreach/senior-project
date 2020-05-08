@@ -9,8 +9,19 @@ Material for Hyland's senior project experience
 - E-mail [joseph.maxwell@hyland.com](mailto:joseph.maxwell@hyland.com) with questions about the material
 
 ## Schedule
-- Week 1: Self-paced learning / Software development project work
-- Week 2: Software development project work
+The first week of the experience will mostly be focused on learning. The second week will be focused on project work. Our goal is for this to be a student-driven experience, so please feel free to change direction as necessary.
+
+### Week 1
+- Icebreaker activities (daily)
+- Mini-lesson on the Command Line (day 1)
+- Mini-lesson on Git (day 3)
+- Self-paced learning OR project work (throughout)
+- **Students should have a project idea by the end of the week**
+
+### Week 2
+- Project work
+- Guest Speakers (throughout the week)
+- **Project presentations on the last day**
 
 ## Software Development Project
 Students should build a web application. This could be a static website with HTML/CSS/JavaScript or a full-stack web app with Node.js and Express.
