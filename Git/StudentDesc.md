@@ -2,7 +2,7 @@
 Learn about Git/GitHub and practice Git skills.
 
 ## Goals
-- Create a GitHub Account
+- Make a GitHub Account
 - Create a new GitHub Repository
 - Clone the Repository locally
 - Push code up to the remote repository
