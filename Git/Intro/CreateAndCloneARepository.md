@@ -52,4 +52,4 @@ If you have Git Bash installed on your machine (or another shell), you can use t
     ```
 
 ## Next Steps
-That's it! Now you have a local clone of your repository.
+That's it! Now you have a local clone of your repository. Next, [push some changes](PushChanges.md) to the repository!

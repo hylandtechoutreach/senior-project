@@ -16,4 +16,5 @@ To get started, follow the steps below to create a GitHub account!
 1. Lastly, make sure to verify your email.  GitHub should have sent an email to the email address you provided, and all you have to do is find it and click the **Verify email address** button  
     ![](https://i.imgur.com/QTqe7gH.png)
 
-That's it! Now you have a GitHub account.
+## Next Steps
+That's it! Now you have a GitHub account. Next, [create and clone a repository](CreateAndCloneARepository.md)!
