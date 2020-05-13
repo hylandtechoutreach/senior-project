@@ -13,6 +13,25 @@ Then, if you make a change to one of the files in your local repository, it will
 If you have a change and you are ready to commit it, you first have to **add** or **stage** the change for commit. In the source control pane, click the _plus_ icon next to the file to add it to the commit:  
 ![](https://i.imgur.com/dtSdJny.png)
 
+### Updating the Git User
+Update the git configuration so that it contains the proper user e-mail.
+
+1. Open a new terminal in VS Code by selecting `Terminal` -> `New Terminal` from the top menu  
+    ![](https://i.imgur.com/Ah0ogIi.png)
+1. In the terminal pane, find the dropdown on the right side to select the shell type and choose **Select Default Shell**  
+    ![](https://i.imgur.com/YDPvuRn.png)
+1. If using Windows, select **Git Bash** from the list  
+    ![](https://i.imgur.com/ZRRh4Ja.png)
+1. If using Mac or Linux, select the preferred shell
+1. In the terminal pane, click the `+` to create a new terminal  
+    ![](https://i.imgur.com/Nkudw3L.png)
+1. Enter the following command, swapping `email@example.com` for your GitHub e-mail address
+    ```bash
+    git config --global user.email "email@example.com"
+    ```
+
+Now, it should be possible to commit to the local repository without issue.
+
 ### Commit the change
 After you have added the change, it will be _staged_ for commit. From there, you simply have to commit it!
 
@@ -28,9 +47,9 @@ Visual Studio Code has an interesting tool for pushing changes up to the remote 
 To push your changes up, use the **Synchronize Changes** button on the blue bar at the bottom of the window:  
 ![](https://i.imgur.com/d2PY1qT.png)
 
-The button should have a recycle/refresh symbol, a number and a down arrow, and another number and an up arrow. The down number corresponds with how many new commits exist on the server, and the up number corresponds with how many new commits exist in the local repository.
+_Note: This may be a **Publish Changes** button with a cloud and an arrow instead, depending on the repository_
 
-Once you click that button, you will have to enter your credentials. After that, your changes should exist in the server repository! You can go to your repository on GitHub and make sure the changes are there.
+Once you click that button, you may have to enter your credentials. After that, your changes should exist in the server repository! You can go to your repository on GitHub and make sure the changes are there.
 
 ## Option 2: Adding, Committing, and Pushing via the Command Line
 First, make sure your present working directory is your repository's folder. Then, use the commands below to interact with git.
