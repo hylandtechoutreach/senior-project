@@ -9,6 +9,8 @@ A **repository** is like a folder that stores code for a project. First, create 
 1. Enter a name for the repository
 1. Optionally, enter a description for the repository
 1. Select the privacy settings for the repository
+1. Make sure to check the "Initialize this repository with a README" box so the repository is not empty upon creation
+    ![](https://i.imgur.com/fD4nXID.png)
 1. Click the **Create Repository** to create the repository!
 
 ## Cloning the repository
