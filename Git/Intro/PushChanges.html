@@ -256,6 +256,19 @@
 <p>Then, if you make a change to one of the files in your local repository, it will appear in the source control pane.</p>
 <h3 id="stage-add-the-changes-for-commit">Stage (add) the changes for commit</h3>
 <p>If you have a change and you are ready to commit it, you first have to <strong>add</strong> or <strong>stage</strong> the change for commit. In the source control pane, click the <em>plus</em> icon next to the file to add it to the commit:<br><img src="https://i.imgur.com/dtSdJny.png" alt=""></p>
+<h3 id="updating-the-git-user">Updating the Git User</h3>
+<p>Update the git configuration so that it contains the proper user e-mail.</p>
+<ol>
+<li>Open a new terminal in VS Code by selecting <code>Terminal</code> -&gt; <code>New Terminal</code> from the top menu<br> <img src="https://i.imgur.com/Ah0ogIi.png" alt=""></li>
+<li>In the terminal pane, find the dropdown on the right side to select the shell type and choose <strong>Select Default Shell</strong><br> <img src="https://i.imgur.com/YDPvuRn.png" alt=""></li>
+<li>If using Windows, select <strong>Git Bash</strong> from the list<br> <img src="https://i.imgur.com/ZRRh4Ja.png" alt=""></li>
+<li>If using Mac or Linux, select the preferred shell</li>
+<li>In the terminal pane, click the <code>+</code> to create a new terminal<br> <img src="https://i.imgur.com/Nkudw3L.png" alt=""></li>
+<li>Enter the following command, swapping <code>email@example.com</code> for your GitHub e-mail address<pre><code class="lang-bash"> git config --global user.email <span class="hljs-string">&quot;email@example.com&quot;</span>
+</code></pre>
+</li>
+</ol>
+<p>Now, it should be possible to commit to the local repository without issue.</p>
 <h3 id="commit-the-change">Commit the change</h3>
 <p>After you have added the change, it will be <em>staged</em> for commit. From there, you simply have to commit it!</p>
 <ol>
@@ -266,8 +279,8 @@
 <h3 id="push-the-change">Push the change</h3>
 <p>Visual Studio Code has an interesting tool for pushing changes up to the remote repository. Instead of simply pushing changes, it actually <em>synchronizes</em> the local and remote repositories. This means that it pushes any commit changes up, and also pulls down any changes from the server that may exist. For now, you&apos;ll only use the tool to push, but it works for pulling too.</p>
 <p>To push your changes up, use the <strong>Synchronize Changes</strong> button on the blue bar at the bottom of the window:<br><img src="https://i.imgur.com/d2PY1qT.png" alt=""></p>
-<p>The button should have a recycle/refresh symbol, a number and a down arrow, and another number and an up arrow. The down number corresponds with how many new commits exist on the server, and the up number corresponds with how many new commits exist in the local repository.</p>
-<p>Once you click that button, you will have to enter your credentials. After that, your changes should exist in the server repository! You can go to your repository on GitHub and make sure the changes are there.</p>
+<p><em>Note: This may be a <strong>Publish Changes</strong> button with a cloud and an arrow instead, depending on the repository</em></p>
+<p>Once you click that button, you may have to enter your credentials. After that, your changes should exist in the server repository! You can go to your repository on GitHub and make sure the changes are there.</p>
 <h2 id="option-2-adding-committing-and-pushing-via-the-command-line">Option 2: Adding, Committing, and Pushing via the Command Line</h2>
 <p>First, make sure your present working directory is your repository&apos;s folder. Then, use the commands below to interact with git.</p>
 <h3 id="status">Status</h3>
@@ -330,7 +343,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Push Changes","level":"1.4.3","depth":2,"next":{"title":"Pull Changes","level":"1.4.4","depth":2,"path":"Git/Beyond/PullChanges.md","ref":"Git/Beyond/PullChanges.md","articles":[]},"previous":{"title":"Create and Clone a Repository","level":"1.4.2","depth":2,"path":"Git/Intro/CreateAndCloneARepository.md","ref":"Git/Intro/CreateAndCloneARepository.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Git/Intro/PushChanges.md","mtime":"2020-05-13T14:40:05.979Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-13T14:40:41.965Z"},"basePath":"../..","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Push Changes","level":"1.4.3","depth":2,"next":{"title":"Pull Changes","level":"1.4.4","depth":2,"path":"Git/Beyond/PullChanges.md","ref":"Git/Beyond/PullChanges.md","articles":[]},"previous":{"title":"Create and Clone a Repository","level":"1.4.2","depth":2,"path":"Git/Intro/CreateAndCloneARepository.md","ref":"Git/Intro/CreateAndCloneARepository.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":["toggle-chapters"],"pluginsConfig":{"toggle-chapters":{},"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"Git/Intro/PushChanges.md","mtime":"2020-05-13T15:38:23.611Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2020-05-13T15:39:03.783Z"},"basePath":"../..","book":{"language":""}});
         });
     </script>
 </div>
