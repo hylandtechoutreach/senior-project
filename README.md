@@ -1,5 +1,5 @@
 # Hyland Senior Project
-Material for Hyland's senior project experience
+Welcome to Hyland's Senior Project experience!
 
 ## Procedures
 - [Daily Zoom Check-in](https://hyland.zoom.us/j/94268146031?pwd=b0F1emJRY2VER3dUTURNcHdaZERsdz09) at 10AM
